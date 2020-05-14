@@ -6926,7 +6926,29 @@ z .slider-area .hero-cap h2 {
     font-size: 50px;
     font-weight: 700
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> 7b531c82b8ac43a11a42b2f22b14b3ceb43bb7a2
+=======
+}
+
+.appointment-btn {
+    background-image: -moz-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+    background-image: -webkit-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+    background-image: -ms-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 0px;
+    height: 50px;
+    width: 290px;
+}
+
+.appointment-btn:hover {
+    color: white;
+    background-color: #0075FF;
+}
+>>>>>>> 7a7f0d1ef634d092949635422871128160d0a52c

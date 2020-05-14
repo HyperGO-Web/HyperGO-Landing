@@ -1982,7 +1982,11 @@ hr {
     position: relative;
     border-style: solid;
     border-width: 3px;
+<<<<<<< HEAD
     border-top-color: #8f1bdc;
+=======
+    border-top-color: #0075FF;
+>>>>>>> 7b531c82b8ac43a11a42b2f22b14b3ceb43bb7a2
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -4132,9 +4136,15 @@ hr {
 }
 
 .available-app-area {
+<<<<<<< HEAD
     background-image: -moz-linear-gradient(0deg, #6c19f6 0%, #f9218d 100%);
     background-image: -webkit-linear-gradient(0deg, #6c19f6 0%, #f9218d 100%);
     background-image: -ms-linear-gradient(0deg, #6c19f6 0%, #f9218d 100%)
+=======
+    background-image: -moz-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+    background-image: -webkit-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+    background-image: -ms-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%)
+>>>>>>> 7b531c82b8ac43a11a42b2f22b14b3ceb43bb7a2
 }
 
 .sample-text-area {
@@ -5695,9 +5705,9 @@ z .slider-area .hero-cap h2 {
     line-height: 67px;
     border-radius: 50%;
     text-align: center;
-    background-image: -moz-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
-    background-image: -webkit-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
-    background-image: -ms-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%)
+    background-image: -moz-linear-gradient(90deg, #919fec 0%, #0c19cc 100%);
+    background-image: -webkit-linear-gradient(90deg,#919fec 0%, #0c19cc 100%);
+    background-image: -ms-linear-gradient(90deg, #919fec 0%, #0c19cc 100%)
 }
 
 .best-features-area .single-features .features-caption {
@@ -6915,4 +6925,8 @@ z .slider-area .hero-cap h2 {
     color: #fff;
     font-size: 50px;
     font-weight: 700
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7b531c82b8ac43a11a42b2f22b14b3ceb43bb7a2

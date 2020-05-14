@@ -6916,3 +6916,21 @@ z .slider-area .hero-cap h2 {
     font-size: 50px;
     font-weight: 700
 }
+
+.appointment-btn {
+    background-image: -moz-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+    background-image: -webkit-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+    background-image: -ms-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 0px;
+    height: 50px;
+    width: 290px;
+}
+
+.appointment-btn:hover {
+    color: white;
+    background-color: #0075FF;
+}

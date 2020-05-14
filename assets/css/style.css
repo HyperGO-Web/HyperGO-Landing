@@ -5295,7 +5295,7 @@
         }
         
         .main-header .main-menu ul li>a {
-            color: #450b78;
+            color: black;
             font-weight: 400;
             padding: 39px 16px;
             font-weight: 400;
@@ -5319,7 +5319,7 @@
             content: "";
             left: 0;
             bottom: 20px;
-            background: #a60dcf;
+            background: #0075FF;
             height: 2px;
             width: 0;
             transition: .3s

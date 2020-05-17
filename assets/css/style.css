@@ -5480,7 +5480,9 @@
         }
         
         .sky-blue {
-            background: #f4feff
+            background-image: url(../img/hero/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         
         .slider-padding {
@@ -5512,7 +5514,7 @@
         }
         
         .slider-area {
-            margin-top: -1px
+            margin-top: -1px;
         }
         
         .slider-area .hero__caption {

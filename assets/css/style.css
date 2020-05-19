@@ -4134,12 +4134,9 @@
         }
         
         .available-app-area {
-            background-image: -moz-linear-gradient(0deg, #6c19f6 0%, #f9218d 100%);
-            background-image: -webkit-linear-gradient(0deg, #6c19f6 0%, #f9218d 100%);
-            background-image: -ms-linear-gradient(0deg, #6c19f6 0%, #f9218d 100%);
-            background-image: -moz-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
-            background-image: -webkit-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
-            background-image: -ms-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+            background-image: -moz-linear-gradient(0deg, #0075FF 0%, #00FFFF 100%);
+            background-image: -webkit-linear-gradient(0deg, #0075FF 0%, #00FFFF 100%);
+            background-image: -ms-linear-gradient(0deg, #0075FF 0%, #00FFFF 100%);
         }
         
         .sample-text-area {
@@ -5480,7 +5477,13 @@
         }
         
         .sky-blue {
-            background: #f4feff
+            background-image: url(../img/hero/bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .sky-blue-bg {
+            background-color: #74faff1e;
         }
         
         .slider-padding {
@@ -5512,7 +5515,7 @@
         }
         
         .slider-area {
-            margin-top: -1px
+            margin-top: -1px;
         }
         
         .slider-area .hero__caption {
@@ -6935,7 +6938,103 @@
             width: 290px;
         }
         
+        .appointment-btn1 {
+            background-image: -moz-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+            background-image: -webkit-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+            background-image: -ms-linear-gradient(0deg, #00FFFF 0%, #0075FF 100%);
+            border-radius: 20px;
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            border: 0px;
+            height: 40px;
+            width: 280px;
+        }
+        
         .appointment-btn:hover {
             color: white;
             background-color: #0075FF;
+        }
+        
+        .counter_area {
+            padding-bottom: 20px;
+            padding-top: 0px;
+        }
+        
+        @media (max-width: 767px) {
+            /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
+            .counter_area {
+                padding-bottom: 0px;
+                padding-top: 60px;
+            }
+        }
+        /* line 8, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
+        
+        .counter_area .single_counter {
+            border: 1px solid #E8E8E8;
+            padding: 50px 0 43px 0;
+            margin-bottom: 30px;
+            -webkit-transition: 0.3s;
+            -moz-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s;
+        }
+        /* line 13, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
+        
+        .counter_area .single_counter h3 {
+            margin-bottom: 16px;
+        }
+        /* line 15, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
+        
+        .counter_area .single_counter h3 span {
+            color: #615CFD;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        
+        @media (max-width: 767px) {
+            /* line 15, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
+            .counter_area .single_counter h3 span {
+                font-size: 35px;
+            }
+        }
+        /* line 22, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
+        
+        .counter_area .single_counter h3 span span {
+            position: relative;
+            top: -2px;
+        }
+        /* line 29, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
+        
+        .counter_area .single_counter p {
+            font-size: 15px;
+            color: #001D38;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+        /* line 35, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
+        
+        .counter_area .single_counter:hover {
+            border: 1px solid #615CFD;
+        }
+        
+        .ml10 {
+            position: relative;
+            font-weight: 900;
+            font-size: 2em;
+        }
+        
+        .ml10 .text-wrapper {
+            position: relative;
+            display: inline-block;
+            padding-top: 0;
+            padding-right: 0.05em;
+            padding-bottom: 0;
+            overflow: hidden;
+        }
+        
+        .ml10 .letter {
+            display: inline-block;
+            line-height: 0;
+            transform-origin: 0 0;
         }

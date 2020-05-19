@@ -6958,7 +6958,7 @@
         
         .counter_area {
             padding-bottom: 20px;
-            padding-top: 75px;
+            padding-top: 0px;
         }
         
         @media (max-width: 767px) {
@@ -7016,4 +7016,25 @@
         
         .counter_area .single_counter:hover {
             border: 1px solid #615CFD;
+        }
+        
+        .ml10 {
+            position: relative;
+            font-weight: 900;
+            font-size: 2em;
+        }
+        
+        .ml10 .text-wrapper {
+            position: relative;
+            display: inline-block;
+            padding-top: 0;
+            padding-right: 0.05em;
+            padding-bottom: 0;
+            overflow: hidden;
+        }
+        
+        .ml10 .letter {
+            display: inline-block;
+            line-height: 0;
+            transform-origin: 0 0;
         }

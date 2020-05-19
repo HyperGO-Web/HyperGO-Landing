@@ -5485,6 +5485,10 @@
             background-size: cover;
         }
         
+        .sky-blue-bg {
+            background-color: #74faff1e;
+        }
+        
         .slider-padding {
             padding-top: 130px
         }

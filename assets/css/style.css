@@ -5524,7 +5524,8 @@
         
         @media (max-width: 767px) {
             .slider-area .hero__caption {
-                padding-top: 75px
+                padding-top: 75px;
+                padding-bottom: 100px;
             }
         }
         
@@ -5617,7 +5618,8 @@
         
         .slider-area .hero__img img {
             position: relative;
-            right: -63px
+            right: -63px;
+            padding-bottom: 30px;
         }
         
         @media only screen and (min-width: 992px) and (max-width: 1199px) {

@@ -4128,9 +4128,9 @@
         }
         
         .best-pricing::before {
-            background-image: -moz-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%);
-            background-image: -webkit-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%);
-            background-image: -ms-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%)
+            background-image: -moz-linear-gradient(0deg, #0075FF 0%, #00FFFF 100%);
+            background-image: -webkit-linear-gradient(0deg, #0075FF 0%, #00FFFF 100%);
+            background-image: -ms-linear-gradient(0deg, #0075FF 0%, #00FFFF 100%);
         }
         
         .available-app-area {

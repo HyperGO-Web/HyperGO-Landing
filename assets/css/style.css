@@ -5624,13 +5624,14 @@
         
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
             .slider-area .hero__img img {
-                right: 0px
+                right: 0px;
+                float: left;
             }
         }
         
         @media only screen and (min-width: 1200px) and (max-width: 1300px) {
             .slider-area .hero__img img {
-                right: 0px
+                right: 0px;
             }
         }
         
@@ -5803,7 +5804,6 @@
             font-size: 50px;
             font-weight: 700;
             line-height: 1.2;
-            
         }
         
         @media (max-width: 767px) {
